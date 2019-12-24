@@ -1,4 +1,6 @@
-﻿#pragma once
+﻿#ifndef FOREST_H
+#define FOREST_H
+
 #include <set>
 #include <list>
 
@@ -608,3 +610,5 @@ private:
 	// 正向深度遍历-先序遍历
 	// 正向深度遍历-反向遍历
 };
+
+#endif // FOREST_H
